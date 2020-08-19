@@ -38,17 +38,17 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Jônatas</a></h1>
+        <h1><a href="#intro" class="scrollto">Jônatas Santos</a></h1>
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#clients">Skills</a></li>
+          <li><a href="#services">Experiências</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team" class="d-none">Team</a></li>
           <li class="menu-has-children d-none"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -57,7 +57,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" class="d-none">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -68,88 +68,36 @@
   ============================-->
   <section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators"></ol>
+
+      <div class="img-background d-none"><img src="img/bg-intro.jpg" alt=""></div>
+
+      <div class="img-content d-none">
+
+        <a href="#" class="btn-get-started d-none">
+          Curriculo
+          <i class="fa fa-download"></i>
+        </a>
+      </div>
+
+      <!--Carrousel-->
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators d-none"></ol>
 
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/bg-intro.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Web Developer</h2>
+                <a href="#" class="btn-get-started">
+                  Curriculo
+                  <i class="fa fa-download"></i>
+                </a>
               </div>
             </div>
           </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>At vero eos et accusamus</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                  placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-                  quibusdam et aut officiis debitis aut.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Temporibus autem quibusdam</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste
-                  natus error sit voluptatem accusantium.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-                  quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-                  enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
       </div>
     </div>
   </section><!-- #intro -->
@@ -191,11 +139,11 @@
     <!--==========================
       About Us Section
     ============================-->
-    <section id="about">
+    <section id="about" class="d-none">
       <div class="container">
 
         <header class="section-header">
-          <h3>About Us</h3>
+          <h3>About</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.</p>
@@ -253,7 +201,7 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
+    <section id="services" class="d-none">
       <div class="container">
 
         <header class="section-header wow fadeInUp">
@@ -370,7 +318,7 @@
     <!--==========================
       Facts Section
     ============================-->
-    <section id="facts" class="wow fadeIn">
+    <section id="facts" class="wow fadeIn d-none">
       <div class="container">
 
         <header class="section-header">
@@ -412,11 +360,11 @@
     <!--==========================
       Portfolio Section
     ============================-->
-    <section id="portfolio" class="section-bg">
+    <section id="portfolio" class="section-bg d-none">
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Portfolio</h3>
         </header>
 
         <div class="row">
@@ -582,13 +530,13 @@
     </section><!-- #portfolio -->
 
     <!--==========================
-      Clients Section
+      Skills Section
     ============================-->
-    <section id="clients" class="wow fadeInUp">
+    <section id="clients" class="wow fadeInUp d-none">
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Clients</h3>
+          <h3>Skills</h3>
         </header>
 
         <div class="owl-carousel clients-carousel">
@@ -774,7 +722,7 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    <section id="contact" class="section-bg wow fadeInUp d-none">
       <div class="container">
 
         <div class="section-header">
@@ -852,15 +800,16 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
+          <!--Coluna 1-->
+          <div class="col-lg-3 col-md-6 footer-info d-none">
             <h3>BizPage</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
               darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo.
               Amet volutpat consequat mauris nunc congue.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!--Coluna 2-->
+          <div class="col-lg-3 col-md-6 footer-links d-none">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
@@ -871,27 +820,21 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <!--Coluna 3-->
+          <div class="col-lg-12 col-md-12 footer-contact">
+            <h4 class="text-center">Contato</h4>
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://www.linkedin.com/in/jonatas-s-santos/" class="linkedin" title="Linkedin"
+                target="_blank"><i class="fa fa-linkedin-square"></i></a>
+              <a href="https://github.com/jonatasts/" class="github" title="Github" target="_blank"><i
+                  class="fa fa-github"></i></a>
+              <a href="mailto:jonattasts@gmail.com" class="gmail" title="Webmail" target="_blank"><i
+                  class="fa fa-envelope"></i></a>
             </div>
-
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <!--Coluna 4-->
+          <div class="col-lg-3 col-md-6 footer-newsletter d-none">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
               legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
@@ -904,24 +847,16 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container d-none">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        Copyright &copy; 2020 - Jonatas Santos
       </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <div class="credits"></div>
     </div>
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
+
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->

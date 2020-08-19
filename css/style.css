@@ -297,7 +297,7 @@ h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
+  background: #18d26e70;
 }
 
 #intro .btn-get-started:hover {
@@ -1435,6 +1435,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top h4::after {
   background: #18d26e;
   width: 60px;
+  left: calc(50% - 29px);
 }
 
 #footer .footer-top .footer-links {
