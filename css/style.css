@@ -297,12 +297,12 @@ h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e70;
+  background: #18d26f36;
 }
 
 #intro .btn-get-started:hover {
-  background: #fff;
-  color: #18d26e;
+  color: #fff;
+  background: #18d26fd3;
 }
 
 /*--------------------------------------------------------------
