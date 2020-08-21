@@ -20,7 +20,7 @@
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -28,6 +28,22 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+    .slide-control {
+      color: #fff;
+      font-size: 80px;
+      left: 30px;
+      margin-top: -70px;
+      position: absolute;
+      top: 50%;
+    }
+
+    .slide-control.right {
+      left: auto;
+      right: 30px;
+    }
+  </style>
 </head>
 
 <body>
@@ -45,10 +61,10 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
+          <li><a href="#about" class="d-none">About</a></li>
           <li><a href="#clients">Skills</a></li>
-          <li><a href="#services">Experiências</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services" class="d-none">Experiences</a></li>
+          <li><a href="#portfolio" class="d-none">Portfolio</a></li>
           <li class="menu-has-children d-none"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -522,25 +538,26 @@
     <!--==========================
       Skills Section
     ============================-->
-    <section id="clients" class="wow fadeInUp d-none">
+    <section id="clients" class="wow fadeInUp">
       <div class="container">
 
         <header class="section-header">
-          <h3>Skills</h3>
+          <h3 style="color: #FFFFFF;">Skills</h3>
         </header>
-
         <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
+          <i class="fab fa-php fa-5x"></i>
+          <i class="fab fa-html5 fa-5x"></i>
+          <i class="fab fa-css3-alt fa-5x"></i>
+          <i class="fab fa-js-square fa-5x"></i>
+          <i class="fas fa-database fa-5x"></i>
+          <i class="fab fa-github fa-5x"></i>
+          <i class="fab fa-windows fa-5x"></i>
+          <i class="fab fa-linux fa-5x"></i>
+          <i class="fab fa-python fa-5x"></i>
+          <i class="fab fa-java fa-5x"></i>
         </div>
-
       </div>
+
     </section><!-- #clients -->
 
     <!--==========================
@@ -815,11 +832,11 @@
             <h4 class="text-center">Contato</h4>
             <div class="social-links d-flex justify-content-center">
               <a href="https://www.linkedin.com/in/jonatas-s-santos/" class="linkedin" title="Linkedin"
-                target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                target="_blank"><i class="fab fa-linkedin"></i></a>
               <a href="https://github.com/jonatasts/" class="github" title="Github" target="_blank"><i
-                  class="fa fa-github"></i></a>
+                  class="fab fa-github"></i></a>
               <a href="mailto:jonattasts@gmail.com" class="gmail" title="Webmail" target="_blank"><i
-                  class="fa fa-envelope"></i></a>
+                  class="fas fa-envelope"></i></a>
             </div>
           </div>
 

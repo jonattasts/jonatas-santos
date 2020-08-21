@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #00010c;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -1072,7 +1072,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients .owl-nav,
 #clients .owl-dots {
-  margin-top: 5px;
+  margin-top: 25px !important;
   text-align: center;
 }
 
@@ -1355,14 +1355,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #000;
+  background: #00010c;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #00010c;
   padding: 60px 0 30px 0;
 }
 
