@@ -187,7 +187,7 @@
   });
 
   // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
+  $(".skills-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
