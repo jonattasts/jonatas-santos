@@ -1,13 +1,19 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+body::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111111 !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #090b12 !important;
+
+}
 
 body {
   background: #00010c;
@@ -572,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  background: #f7f7f7;
+  background: rgb(24 25 27 / 41%);
 }
 
 /* About Us Section
@@ -956,6 +962,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#portfolio .section-title {
+  color: white;
+}
+
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
@@ -1075,26 +1085,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin-bottom: 13px;
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a {
+#portfolio .portfolio-item .portfolio-info {
   color: #333;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
+#portfolio .portfolio-item .portfolio-info:hover {
   color: #18d26e;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #8b8b8b;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
 }
+
+
 
 /* Skills Section
 --------------------------------*/
