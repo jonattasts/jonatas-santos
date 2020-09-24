@@ -12,7 +12,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #090b12 !important;
-
 }
 
 body {
@@ -1105,8 +1104,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-
-
 /* Skills Section
 --------------------------------*/
 
@@ -1146,6 +1143,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #skills .owl-carousel i:hover {
   color: #FFFFFF;
   transition: 0.3s;
+}
+
+#skills .owl-carousel #icon-flutter:hover {
+  fill: #FFFFFF;
 }
 
 /* Testimonials Section
