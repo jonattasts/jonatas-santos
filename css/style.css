@@ -577,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  background: rgb(24 25 27 / 41%);
+  background: #00010c;
 }
 
 /* About Us Section
@@ -959,6 +959,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio {
   padding: 60px 0;
+  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  position: relative;
+
+}
+
+#portfolio::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.90);
+  z-index: 9;
+}
+
+#portfolio .container {
+  position: relative;
+  z-index: 10;
 }
 
 #portfolio .section-title {
