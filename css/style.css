@@ -584,7 +584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-general.jpg") center top no-repeat fixed;
+  background: url("../img/bg-general.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -710,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #experiences {
-  background: url("../img/about-general.jpg") center top no-repeat fixed;
+  background: url("../img/bg-general.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -959,7 +959,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio {
   padding: 60px 0;
-  background: url("../img/about-general.jpg") center top no-repeat fixed;
+  background: url("../img/bg-general.jpg") center top no-repeat fixed;
   background-size: cover;
   position: relative;
 
