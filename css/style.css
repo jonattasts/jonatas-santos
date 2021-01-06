@@ -1165,7 +1165,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#skills .owl-carousel #icon-flutter:hover {
+#skills .owl-carousel #icon-flutter:hover, #skills .owl-carousel #icon-jquery:hover {
   fill: #FFFFFF;
 }
 
