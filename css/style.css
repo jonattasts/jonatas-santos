@@ -688,23 +688,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: row;
 }
 
-@media (max-width: 992px) {
-  #content-about {
-    flex-direction: column!important;
-    align-items: center!important;
-    margin-top: 3rem!important;
-  }
-  .about-img {
-    margin-bottom: 2rem;
-  }
-  #about-description {
-    text-align: justify;
-  }
-  .about-img {
-    width: 230px;
-    height: 230px;
-  }
+/*@media (max-width: 992px) {*/
+
+#content-about {
+  flex-direction: column!important;
+  align-items: center!important;
+  margin-top: 3rem!important;
 }
+
+.about-img {
+  margin-bottom: 2rem;
+}
+
+#about-description {
+  text-align: center;
+  padding: 30px !important;
+  padding-bottom: 70px !important;
+  max-width: 82% !important;
+}
+
+.about-img {
+  width: 230px;
+  height: 230px;
+}
+
+/*}*/
 
 /* Expiriences Section
 --------------------------------*/
@@ -962,7 +970,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url("../img/bg-general.jpg") center top no-repeat fixed;
   background-size: cover;
   position: relative;
-
 }
 
 #portfolio::before {
