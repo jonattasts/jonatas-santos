@@ -291,6 +291,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #18d26fd3;
 }
 
+#intro .carousel-item.active {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
