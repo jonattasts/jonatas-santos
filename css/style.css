@@ -999,34 +999,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
-#portfolio #portfolio-flters {
+#portfolio #portfolio-filters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#portfolio #portfolio-filters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #666666;
   border-radius: 4px;
   text-transform: uppercase;
-  background: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-}
-
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  /*Custom*/
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #fff;
+  background: #18d26f36;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#portfolio #portfolio-filters li:hover, #portfolio #portfolio-filters li.filter-active {
+  color: #fff;
+  background: #18d26fd3;
+}
+
+#portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
@@ -1112,6 +1116,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*Exibe 3 links quando tiver endereço WEB*/
+
 #portfolio .portfolio-item figure:hover .link-preview.web {
   left: calc(50% - 70px) !important;
 }
