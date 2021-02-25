@@ -1,0 +1,1 @@
+//Bloqueia o click nos icones ocultos dos cards da seção Portifólio
