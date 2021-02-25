@@ -1059,7 +1059,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
+#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details, #portfolio .portfolio-item figure .link-web {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -1072,17 +1072,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
+#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i, #portfolio .portfolio-item figure .link-web i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover, #portfolio .portfolio-item figure .link-web:hover {
   background: #18d26e;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
+#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i, #portfolio .portfolio-item figure .link-web:hover i {
   color: #fff;
 }
 
@@ -1096,6 +1096,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: calc(50% - 18px);
 }
 
+#portfolio .portfolio-item figure .link-web {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
 #portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
@@ -1104,6 +1109,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
+}
+
+/*Exibe 3 links quando tiver endereço WEB*/
+#portfolio .portfolio-item figure:hover .link-preview.web {
+  left: calc(50% - 70px) !important;
+}
+
+#portfolio .portfolio-item figure:hover .link-details.web {
+  right: calc(50% - 16px) !important;
+}
+
+#portfolio .portfolio-item figure:hover .link-web {
+  opacity: 1;
+  right: calc(50% - 66px);
 }
 
 #portfolio .portfolio-item .portfolio-info {
