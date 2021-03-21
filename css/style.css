@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background: #18d26f36;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
+}
+
+.back-to-top:hover {
+  background: #18d26fd3;
 }
 
 /* Prelaoder */
