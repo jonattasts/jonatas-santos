@@ -869,6 +869,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  #title-produs {
+    margin-top: 8px;
+  }
+}
+
 /* Call To Action Section
 --------------------------------*/
 
