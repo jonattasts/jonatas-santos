@@ -832,10 +832,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
 }
 
+#experiences .container .section-header{
+  margin-bottom: 40px;
+}
+
 #experiences .title {
   margin-left: 60px;
   font-weight: 700;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   font-size: 18px;
 }
 
@@ -853,6 +857,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 30px;
+}
+
+#experiences .container .row .jobs {
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .no-visible {
+    display: none;
+  }
 }
 
 /* Call To Action Section
